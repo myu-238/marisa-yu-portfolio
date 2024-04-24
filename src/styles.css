@@ -1,0 +1,127 @@
+:root {
+    --branding-color: #e1547e;
+    --secondary-color: #e3f4ff;
+    --heading-font-family: "Patua One", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 94px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 46px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer {
+    margin: 100px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.hero {
+    background-image: url("images/flowers.png");
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+.hero h2 {
+    font-family: var(--default-font-family);
+    line-height: 2;
+    font-size: 22px;
+}
+
+.subtitle {
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+    padding: 50px 50px;
+}
+
+.project-description {
+    padding: 120px 0 30px;
+}
