@@ -95,7 +95,7 @@ footer .contact-box p {
 }
 
 .hero {
-    background-image: url("images/flowers.png");
+    background: url("src/images/flowers.png");
     text-align: center;
     padding: 160px 20px;
 }
@@ -113,6 +113,20 @@ footer .contact-box p {
     font-size: 22px;
 }
 
+.project-description {
+    padding: 120px 0 30px;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: 560px;
+    border-radius: 12px;
+}
+
+.logo {
+    max-height: 40px;
+}
+
 .subtitle {
     background-color: var(--secondary-color);
     font-family: var(--heading-font-family);
@@ -122,6 +136,44 @@ footer .contact-box p {
     padding: 50px 50px;
 }
 
-.project-description {
-    padding: 120px 0 30px;
+@media (max-width: 985px) {
+    h1 {
+        font-size: 60px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    .content-container {
+        text-align: center;
+        padding: 0;
+    }
+
+    .content h1 {
+        font-size: 60px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .profile-pic {
+        max-width: 60%;
+        height: auto;
+    }
 }
