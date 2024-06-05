@@ -95,7 +95,8 @@ footer .contact-box p {
 }
 
 .hero {
-    background: url("src/images/flowers.png");
+    background-image: url("../images/flowers.png");
+    background-size: 100% 100%;
     text-align: center;
     padding: 160px 20px;
 }
@@ -111,6 +112,11 @@ footer .contact-box p {
     font-family: var(--default-font-family);
     line-height: 2;
     font-size: 22px;
+}
+
+.home-page-subtitle {
+    color: black;
+    font-weight: lighter;
 }
 
 .project-description {
